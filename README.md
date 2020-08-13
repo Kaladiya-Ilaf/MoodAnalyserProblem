@@ -1,0 +1,2 @@
+# MoodAnalyserProblem
+Handle custom exceeption
