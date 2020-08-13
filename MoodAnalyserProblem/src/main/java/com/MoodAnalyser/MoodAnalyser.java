@@ -1,7 +1,7 @@
 package com.MoodAnalyser;
 
 public class MoodAnalyser {
-    String moodState;
+    private String moodState;
 
     MoodAnalyser(){}
 
@@ -12,7 +12,8 @@ public class MoodAnalyser {
     public String analyseMood() {
         if(moodState.contains("SAD")){
             return "SAD";
-        }else{
+        }
+        else{
             return "HAPPY";
         }
 
